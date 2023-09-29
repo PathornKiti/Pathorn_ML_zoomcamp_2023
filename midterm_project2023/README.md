@@ -12,3 +12,7 @@ The goal is to determine whether an applicant is likely to default on the loan, 
 - [Loan risk data](https://www.kaggle.com/datasets/laotse/credit-risk-dataset/data)
 
 <img src="images/datadict.png" />
+
+## EDA/Experiment/Model Selection
+[Notebook](Loan_risk_pred.ipynb)
+I finally choose ANN(Artificial Nueral Network) Classifier and I save my Preprocessing pipeline and the classifier model here. [Save model packages](model.bin)
