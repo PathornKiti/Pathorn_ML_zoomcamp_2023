@@ -16,3 +16,9 @@ The goal is to determine whether an applicant is likely to default on the loan, 
 ## EDA/Experiment/Model Selection
 [Notebook](Loan_risk_pred.ipynb)
 I finally choose ANN(Artificial Nueral Network) Classifier and I save my Preprocessing pipeline and the classifier model here. [Save model packages](model.bin)
+
+
+## Run using python script
+* If you are not sure about libraries please download [requirements.txt](requirements.txt) and then using this command `pip install -r requirements.txt` in command line
+* Run this command `python train.py` in your terminal and make sure that your current directory path include this file [train.py](train.py). This script will write model.bin as an output
+* After you got the model.bin. You can start to run `python predict.py` in your terminal to get customer default probability output. Make sure that your current directory path include this file [predict.py](predict.py). You can adjust customer feature within this python file
