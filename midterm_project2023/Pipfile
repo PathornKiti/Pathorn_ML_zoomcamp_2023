@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 datascience = "==0.17.6"
+flask = "==3.0.0"
 gunicorn = "==21.2.0"
 imbalanced-learn = "==0.10.1"
 importlib-metadata = "==6.8.0"
