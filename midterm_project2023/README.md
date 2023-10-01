@@ -13,6 +13,11 @@ The goal is to determine whether an applicant is likely to default on the loan, 
 
 <img src="images/datadict.png" />
 
+
+## Setting environment
+I wrote two files, [environment.yml](environment.yml) and [requirements.txt](requirements.txt). You can use command: `conda env create -f environment.yml` to create the environment to run the python code
+
+
 ## EDA/Experiment/Model Selection
 [Notebook](Loan_risk_pred.ipynb)
 I finally choose ANN(Artificial Nueral Network) Classifier and I save my Preprocessing pipeline and the classifier model here. [Save model packages](model.bin)
