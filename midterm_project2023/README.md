@@ -21,8 +21,8 @@ Start by using this command`pip install pipenv` to install the pipenv package. T
 To start the virtual environment you created just run this command:`pipenv shell`
 
 ## EDA/Experiment/Model Selection
-[Notebook](Loan_risk_pred.ipynb)
-I finally chose the ANN (Artificial Neural Network) Classifier, and I saved my preprocessing pipeline and the classifier model here. [Save model packages](model.bin)
+[Notebook](loan_risk_pred.ipynb)
+I finally chose the XGBoost Classifier, and I saved my preprocessing pipeline and the classifier model here. [Save model packages](model.bin)
 
 
 ## Run using python script

@@ -8,29 +8,14 @@ import numpy as np
 
 
     
-    
-# Define features
-numerical=['person_age',
- 'person_income',
- 'person_emp_length',
- 'loan_amnt',
- 'loan_int_rate',
- 'loan_percent_income',
- 'cb_person_cred_hist_length']
-categorical=['person_home_ownership',
- 'loan_intent',
- 'loan_grade',
- 'cb_person_default_on_file']
 
-
-
-
+#Load model
 def load(filename: str):
     with open(filename, 'rb') as f_in:
         return pickle.load(f_in)
 
 
-dv,scaler,model = load('model.bin')
+preprocessor,model = load('model.bin')
 
 
 
@@ -40,9 +25,9 @@ app = Flask('loan-risk')
 @app.route('/predict', methods=['POST'])
 def predict():
     customer = request.get_json()
-    X = dv.transform([customer])
-    X=scaler.fit_transform(X)
-    y_pred = model.predict(X)[0][0]
+    customer_df = pd.DataFrame([customer])
+    X=preprocessor.transform(customer_df)
+    y_pred = model.predict(X)
     default = y_pred >= 0.5
 
     result = {

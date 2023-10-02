@@ -12,41 +12,29 @@ import pickle
 
 # Load model
 with open('model.bin', 'rb') as f_in:
-    dv,scaler,model = pickle.load(f_in)
+    preprocessor,model = pickle.load(f_in)
 f_in.close()
 
 
-# Define features
-numerical=['person_age',
- 'person_income',
- 'person_emp_length',
- 'loan_amnt',
- 'loan_int_rate',
- 'loan_percent_income',
- 'cb_person_cred_hist_length']
-categorical=['person_home_ownership',
- 'loan_intent',
- 'loan_grade',
- 'cb_person_default_on_file']
 
 # Define customer
-customer={"person_age":24,
-          "person_income":54400,
-          "person_home_ownership":"RENT",
-          "person_emp_length":8.0,
-          "loan_intent":"MEDICAL",
-          "loan_grade":"C",
-          "loan_amnt":35000,
-          "loan_int_rate":14.27
-          ,"loan_percent_income":0.55,
-          "cb_person_default_on_file":"Y",
-          "cb_person_cred_hist_length":4}
+customer={'person_age': 26,
+ 'person_income': 43200,
+ 'person_home_ownership': 'OWN',
+ 'person_emp_length': 1.0,
+ 'loan_intent': 'EDUCATION',
+ 'loan_grade': 'C',
+ 'loan_amnt': 17000,
+ 'loan_int_rate': 13.49,
+ 'loan_percent_income': 0.39,
+ 'cb_person_default_on_file': 'Y',
+ 'cb_person_cred_hist_length': 2}
 
 
 def predict(customer):
-    X = dv.transform([customer])
-    X=scaler.fit_transform(X)
-    y_pred = model.predict(X)[0][0]
+    customer_df = pd.DataFrame([customer])
+    X=preprocessor.transform(customer_df)
+    y_pred = model.predict(X)
     default = y_pred >= 0.5
 
     result = {
