@@ -33,3 +33,10 @@ I finally chose the XGBoost Classifier, and I saved my preprocessing pipeline an
 
 ## Deployment with Flask
 * You can run script [predict_flask.py](predict_flask.py) to get the endpoint. Then you can try open [test_flask_deployment.ipynb](test_flask_deployment.ipynb) to post a request to the endpoint
+
+
+## Containerize the app
+* Change the directory to [Container](container) `cd container`
+I already created Dockerfile in container folder. So make sure that your directory is in this folder and already installed docker. Then run `docker build -t <image-name>:<version> .`  After created docker image, you can use this command to run  `docker run -it -p 9696:9696 <image-name>:<version>`
+* Alternatively, I push this docker image to dockerhub [Loan app image](https://hub.docker.com/repository/docker/pathornkiti/loan_app/general)
+Pull by using this command `docker pull pathornkiti/loan_app:latest`
