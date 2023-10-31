@@ -40,3 +40,9 @@ I finally chose the XGBoost Classifier, and I saved my preprocessing pipeline an
 I already created Dockerfile in container folder. So make sure that your directory is in this folder and already installed docker. Then run `docker build -t <image-name>:<version> .`  After created docker image, you can use this command to run  `docker run -it -p 9696:9696 <image-name>:<version>`
 * Alternatively, I push this docker image to dockerhub [Loan app image](https://hub.docker.com/repository/docker/pathornkiti/loan_app/general)
 Pull by using this command `docker pull pathornkiti/loan_app:latest`
+
+
+## Kubernetes Deployment
+* Since I push my docker image to Dockerhub, I create Kubernetes cluster with[Minikube](https://kubernetes.io/fr/docs/tasks/tools/install-minikube/)
+* I create Minikube cluster with `minikube start --driver=docker`
+* Then deploy container image from Dockerhub to Kubernetes pod with this command`kubectl create -f deployment.yml`

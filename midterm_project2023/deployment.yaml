@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loanapp-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loanapp
+  template:
+    metadata:
+      labels:
+        app: loanapp
+    spec:
+      containers:
+      - name: loanapp
+        image: pathornkiti/loan_app:latest
+        ports:
+        - containerPort: 9696
