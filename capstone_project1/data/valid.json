@@ -1,0 +1,1002 @@
+[
+    {
+        "utterance": "i d like to see the show onion sportsdome",
+        "slots": "O O O O O O B-object_type B-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "give the current book 4 stars",
+        "slots": "O O B-object_select B-object_type B-rating_value B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "reserve a table for 8 in neighboring hitchland",
+        "slots": "O O O O B-party_size_number O B-spatial_relation B-city",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "show creative video game the boat is full",
+        "slots": "O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "put once bitten twice bitten into the pulse of americana",
+        "slots": "O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what time is the ladies diplomat playing",
+        "slots": "O O O B-movie_name I-movie_name I-movie_name O",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "i want to book a bistro that serves pasta salad in brazil",
+        "slots": "O O O O O B-restaurant_type O O B-served_dish I-served_dish O B-country",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "play a song from 2003",
+        "slots": "O O B-music_item O B-year",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "rate current novel two stars",
+        "slots": "O B-object_select B-object_type B-rating_value B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "add the field album to my romantic evening album",
+        "slots": "O B-artist I-artist B-music_item O B-playlist_owner B-playlist I-playlist B-music_item",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play some robbie merrill",
+        "slots": "O O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "book for one in indiana at a restaurant",
+        "slots": "O O B-party_size_number O B-state O O B-restaurant_type",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "find the schedule for the comedian at santikos theatres",
+        "slots": "O O B-object_type O B-movie_name I-movie_name O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "please add faccetta nera to my this is handel playlist",
+        "slots": "O O B-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play music by brian chase",
+        "slots": "O O O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "can you find me the movie  the girl and the general",
+        "slots": "O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what s the weather here",
+        "slots": "O O O O B-current_location",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "give the current novel a one out of 6 rating",
+        "slots": "O O B-object_select B-object_type O B-rating_value O O B-best_rating O",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "rate this series two of 6",
+        "slots": "O B-object_select B-object_part_of_series_type B-rating_value O B-best_rating",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "play the last song from the thirties by airto moreira",
+        "slots": "O O B-sort B-music_item O O B-year O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "what is the weather forecast for here",
+        "slots": "O O O O O O B-current_location",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "show the swan princess",
+        "slots": "O B-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "when is up the yangtze playing at goodrich quality theaters",
+        "slots": "O O B-movie_name I-movie_name I-movie_name O O B-location_name I-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "give 3 / 6 stars to doctor in the house",
+        "slots": "O B-rating_value O B-best_rating B-rating_unit O B-object_name I-object_name I-object_name I-object_name",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "what is the 00:00 pm forecast for blizzard conditions in cameroon",
+        "slots": "O O O B-timeRange I-timeRange O O B-condition_description O O B-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "i want to go to antigua and barbuda and eat at a table for 4",
+        "slots": "O O O O O B-country I-country I-country O O O O O O B-party_size_number",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "will it rain in paisley",
+        "slots": "O O B-condition_description O B-city",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "rate deception a one",
+        "slots": "O B-object_name O B-rating_value",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "rate the astonishing life of octavian nothing  traitor to the nation  volume ii: the kingdom on the waves series 2 points",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_part_of_series_type B-rating_value B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "i need a reservation for a joint in az for 3",
+        "slots": "O O O O O O B-restaurant_type O B-state O B-party_size_number",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "how cold is it going to be in san marcial  ak in one second",
+        "slots": "O B-condition_temperature O O O O O O B-city I-city B-state B-timeRange I-timeRange I-timeRange",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "find time for films at the north american cinemas",
+        "slots": "O O O B-movie_type O O B-location_name I-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "i d like to hear one of eric clapton s most popular melody on pandora",
+        "slots": "O O O O O O O B-artist I-artist O B-sort I-sort B-music_item O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "play the baldur\u2019s gate ii: throne of bhaal saga",
+        "slots": "O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "play me the most popular lillian hardin song on itunes",
+        "slots": "O O O B-sort I-sort B-artist I-artist B-music_item O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "play the top of emil de cou",
+        "slots": "O O B-sort O B-artist I-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "play some ven a mi",
+        "slots": "O O B-album I-album I-album",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "show me the novel all i need to know",
+        "slots": "O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "play some 1982 movement music on slacker",
+        "slots": "O O B-year B-music_item O O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "show me the movie operetta for the theatre organ",
+        "slots": "O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "add new wave blues to my push button funk playlist",
+        "slots": "O B-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "does mexican werewolf start at three am",
+        "slots": "O B-movie_name I-movie_name O O B-timeRange I-timeRange",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "can you add something by the artist paul cargnello to my chill tracks playlist",
+        "slots": "O O O O O O B-music_item B-artist I-artist O B-playlist_owner B-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "show me the picture unfinished monkey business",
+        "slots": "O O O B-object_type B-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "play the most popular johnny clarke on deezer",
+        "slots": "O O B-sort I-sort B-artist I-artist O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "what movies are scheduled at the nearest movie theatre",
+        "slots": "O B-movie_type O O O O B-spatial_relation B-object_location_type I-object_location_type",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "find the killing fields",
+        "slots": "O B-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what will the weather be in bernie id",
+        "slots": "O O O O O O B-city B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "what is the cheapest online price for the instincts saga",
+        "slots": "O O O O O O O O B-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "book a table in sterling run for two with a pool and food court",
+        "slots": "O O O O B-city I-city O B-party_size_number O O B-facility O B-restaurant_type I-restaurant_type",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "what is the weather like at basaseachic falls national park",
+        "slots": "O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "is it cold in north carolina",
+        "slots": "O O B-condition_temperature O B-state I-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "i d like to watch take this waltz",
+        "slots": "O O O O O B-movie_name I-movie_name I-movie_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "i want to bring antoinette  christine and caitlin to get bread at a restaurant in faraway connecticut",
+        "slots": "O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-served_dish O O B-restaurant_type O B-spatial_relation B-state",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "show me the movie times for animated movies in the area",
+        "slots": "O O O B-object_type I-object_type O B-movie_type I-movie_type B-spatial_relation I-spatial_relation I-spatial_relation",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "how cold will it be here in 1 second",
+        "slots": "O B-condition_temperature O O O B-current_location B-timeRange I-timeRange I-timeRange",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "book a restaurant in michigan for 4 people",
+        "slots": "O O B-restaurant_type O B-state O B-party_size_number O",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "what s the weather in the marshall islands in sixteen hours",
+        "slots": "O O O O O O B-country I-country B-timeRange I-timeRange I-timeRange",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "let me get the movie schedule for lunch time",
+        "slots": "O O O O B-object_type I-object_type O B-timeRange O",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "i want to book a restaurant far from the municipal borough of mitcham for 10 people",
+        "slots": "O O O O O B-restaurant_type B-spatial_relation O O B-poi I-poi I-poi I-poi O B-party_size_number O",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "is saint robert hotter than turkmenistan",
+        "slots": "O B-city I-city B-condition_temperature O B-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "play fourties music on pandora",
+        "slots": "O B-year O O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "find war & peace vol  1",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "play the song i get ideas as performed by richard kruspe",
+        "slots": "O O B-music_item B-track I-track I-track O O O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "what is the local movie schedule",
+        "slots": "O O O O B-object_type I-object_type",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "play some music by jody williams from 2001",
+        "slots": "O O O O B-artist I-artist O B-year",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "i want to see some movies in a b&b theatres",
+        "slots": "O O O O O B-movie_type O O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "use groove shark to play the today and tomorrow album",
+        "slots": "O B-service I-service O O O B-album I-album I-album B-music_item",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "add always to dena s baroque 50 spotify picks playlist",
+        "slots": "O B-entity_name O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "book close-by for 1 in south dakota",
+        "slots": "O B-spatial_relation O B-party_size_number O B-state I-state",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "play some seventies music by janne puurtinen on youtube",
+        "slots": "O O B-year O O B-artist I-artist O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "play the newest ballad from chad urmston",
+        "slots": "O O B-sort B-music_item O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "show me animated movies with movie times close by",
+        "slots": "O O B-movie_type I-movie_type O B-object_type I-object_type B-spatial_relation I-spatial_relation",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "show creativity of video game labyrinth",
+        "slots": "O O O B-object_type I-object_type B-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "find the stone free game",
+        "slots": "O O B-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "i need a table for a party of 2 at co-operative block building in old glory",
+        "slots": "O O O O O O O O B-party_size_number O B-restaurant_name I-restaurant_name I-restaurant_name O B-city I-city",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "find a tv show called shake hands with beef",
+        "slots": "O O B-object_type I-object_type O B-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "rate this chronicle one of 6 points",
+        "slots": "O B-object_select B-object_part_of_series_type B-rating_value O B-best_rating B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "add this song by torch to my sing along playlist",
+        "slots": "O O B-music_item O B-artist O B-playlist_owner B-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "book a table not far in wy at a gastropub with internet for me  jenny and antoinette in one week",
+        "slots": "O O O B-spatial_relation I-spatial_relation O B-state O O B-restaurant_type O B-facility O B-party_size_description I-party_size_description I-party_size_description I-party_size_description B-timeRange I-timeRange I-timeRange",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "when will the blonde ambition be playing",
+        "slots": "O O O B-movie_name I-movie_name O O",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "show me the everybody wants you picture",
+        "slots": "O O O B-object_name I-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what is the eugene t  mahoney state park forecast for 2 days from now",
+        "slots": "O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi O O B-timeRange I-timeRange I-timeRange I-timeRange",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "open lastfm  play top hits of simon webbe",
+        "slots": "O B-service O B-sort O O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "look for the itv com song",
+        "slots": "O O O B-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "will it get overcast in la dolores",
+        "slots": "O O O B-condition_description O B-city I-city",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "play the m\u00fasica da s\u00e9rie de filmes o hobbit album by alex otaola",
+        "slots": "O O B-album I-album I-album I-album I-album I-album I-album B-music_item O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "i want to find the adventures of lomax",
+        "slots": "O O O O B-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "how do i rate this book 4 stars",
+        "slots": "O O O O B-object_select B-object_type B-rating_value O",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "is rumor has it playing",
+        "slots": "O B-movie_name I-movie_name I-movie_name O",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "include sean yseult in kaitlin s metal overload playlist",
+        "slots": "O B-artist I-artist O B-playlist_owner I-playlist_owner B-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what will the weather be in nov  in brookneal",
+        "slots": "O O O O O O B-timeRange O B-city",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "add this album to my playlist named caf\u00e9  libros",
+        "slots": "O O B-music_item O B-playlist_owner O O B-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "can you find me cracks the safe",
+        "slots": "O O O O B-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "add kenneth c \"jethro\" burns songs in my playlist soundscapes for gaming",
+        "slots": "O B-artist I-artist I-artist I-artist O O B-playlist_owner O B-playlist I-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play the cabin fever 2: spring fever saga",
+        "slots": "O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "rate the current album 4 of 6 stars",
+        "slots": "O O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "i want to watch the television show naked ii",
+        "slots": "O O O O O B-object_type I-object_type B-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "rate seven pillars of wisdom two points",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "add dimitri fampas s song to my focus now",
+        "slots": "O B-artist I-artist O B-music_item O B-playlist_owner B-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "find movie times at national amusements",
+        "slots": "O B-object_type I-object_type O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "when is twentynine palms playing at plitt theatres",
+        "slots": "O O B-movie_name I-movie_name O O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "i would like an outdoor cafeteria for 3",
+        "slots": "O O O O B-facility B-restaurant_type O B-party_size_number",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "give memoirs of a fox-hunting man a rating of 4 out of 6",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name I-object_name O O O B-rating_value O O B-best_rating",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "play that new song from 1970",
+        "slots": "O O B-sort B-music_item O B-year",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "go to movie times at imax corporation",
+        "slots": "O O B-object_type I-object_type O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "add album to my country hits",
+        "slots": "O B-music_item O B-playlist_owner B-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "book a restaurant near the city of wakefield for 5 people",
+        "slots": "O O B-restaurant_type B-spatial_relation O B-poi I-poi I-poi O B-party_size_number O",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "play step up your game by marc cohn",
+        "slots": "O B-album I-album I-album I-album O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "play some fourties music from erin harkes",
+        "slots": "O O B-year O O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "can you find me the trailer of the hippocratic oath",
+        "slots": "O O O O O B-object_type O O B-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "play the most popular 1956 record",
+        "slots": "O O B-sort I-sort B-year B-music_item",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "i m looking for the painting god must have spent a little more time on you",
+        "slots": "O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "please add some pete townshend to my playlist fiesta hits con lali",
+        "slots": "O O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "i want to add michelle heaton to this is chopin",
+        "slots": "O O O O B-artist I-artist O B-playlist I-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "add bryan gregory to the playlist emily dickinson",
+        "slots": "O B-artist I-artist O O O B-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what movie schedules at consolidated theatres",
+        "slots": "O B-object_type I-object_type O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "use spotify to play me music",
+        "slots": "O B-service O O O O",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "what is the cold condition of our current position for tomorrow",
+        "slots": "O O O B-condition_temperature O O O B-current_location I-current_location O B-timeRange",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "will there be a storm six weeks from now in albania",
+        "slots": "O O O O B-condition_description B-timeRange I-timeRange I-timeRange I-timeRange O B-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "rate the tritonian ring zero",
+        "slots": "O B-object_name I-object_name I-object_name B-rating_value",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "i need a reservation in pitcairn islands for any restaurant  joint",
+        "slots": "O O O O O B-country I-country O O B-restaurant_type I-restaurant_type",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "i m wondering if you can give me the movie times for films in the neighborhood",
+        "slots": "O O O O O O O O O B-object_type I-object_type O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "i want to hear a top five ballad from 2002",
+        "slots": "O O O O O B-sort I-sort B-music_item O B-year",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "add ojuelegba to trabajo ritmos dance",
+        "slots": "O B-entity_name O B-playlist I-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what will the rainfall be in 1 second at roy lake state park",
+        "slots": "O O O B-condition_description O B-timeRange I-timeRange I-timeRange O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "add the track to the metal talks metallica playlist",
+        "slots": "O O B-music_item O O B-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play a top-50 tune from 1982",
+        "slots": "O O B-sort B-music_item O B-year",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "book a reservation for my mommy and i at a restaurant in central african republic",
+        "slots": "O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-restaurant_type O B-country I-country I-country",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "will it be cold in carnot or",
+        "slots": "O O O B-condition_temperature O B-city B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "play music from the artist irma pane",
+        "slots": "O O O O O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "rate the wimpy kid movie diary  saga 4 out of 6",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_part_of_series_type B-rating_value O O B-best_rating",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "give this textbook a four",
+        "slots": "O B-object_select B-object_type O B-rating_value",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "play spotify",
+        "slots": "O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "i give a rating of four to this textbook",
+        "slots": "O O O O O B-rating_value O B-object_select B-object_type",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "i need a weather forecast for tallahassee-st  marks historic railroad state trail",
+        "slots": "O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "add the artist to my dishwashing playlist",
+        "slots": "O O B-music_item O B-playlist_owner B-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what is the johnson creek forecast for chilly weather",
+        "slots": "O O O B-city I-city O O B-condition_temperature O",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "show me dangers of the canadian mounted",
+        "slots": "O O B-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "put some stu phillips in the women of acoustic playlist",
+        "slots": "O O B-artist I-artist O O B-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play some nineties music on pandora",
+        "slots": "O O B-year O O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "weather for carlisle gardens as",
+        "slots": "O O B-city I-city B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "will it be cloudy in lenzburg  papua new guinea",
+        "slots": "O O O B-condition_description O B-city B-country I-country I-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "add to playlist confidence boost here comes santa claus",
+        "slots": "O O O B-playlist I-playlist B-entity_name I-entity_name I-entity_name I-entity_name",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "where s the nearest movie house playing no trains no planes",
+        "slots": "O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name I-movie_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "will the weather be cloudy seven weeks from now in hinckley",
+        "slots": "O O O O B-condition_description B-timeRange I-timeRange I-timeRange I-timeRange O B-city",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "what is the midday weather forecast for chalkyitsik  palestine",
+        "slots": "O O O B-timeRange O O O B-city B-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "i give obama: from promise to power 6 points and a rating value of 1",
+        "slots": "O O B-object_name I-object_name I-object_name I-object_name I-object_name B-best_rating B-rating_unit O O O O O B-rating_value",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "get me the trailer of good morning sunshine",
+        "slots": "O O O B-object_type O B-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "where can i buy a copy of the picture called turn against this land",
+        "slots": "O O O O O O O O B-object_type O B-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "i need to see a list of films and movie times in the area",
+        "slots": "O O O O O O O B-movie_type O B-object_type I-object_type B-spatial_relation I-spatial_relation I-spatial_relation",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "show more questions than answers trailer",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "can you pull up channel m news",
+        "slots": "O O O O B-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "give three stars / 6 to my sister  my love",
+        "slots": "O B-rating_value B-rating_unit O B-best_rating O B-object_name I-object_name I-object_name I-object_name",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "what s the weather like in serbia",
+        "slots": "O O O O O O B-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "i have a party of 8 and we want to go to a restaurant that serves croquembouche",
+        "slots": "O O O O O B-party_size_number O O O O O O O B-restaurant_type O O B-served_dish",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "can you play me the latest theme song by warren vache",
+        "slots": "O O O O O B-sort B-music_item I-music_item O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "find the real story with gretchen carlson",
+        "slots": "O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "add this track to the sunshine reggae playlist",
+        "slots": "O O B-music_item O O B-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what system is bloodhounds of broadway the game for",
+        "slots": "O O O B-object_name I-object_name I-object_name O B-object_type O",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "i m hoping you can find a photograph from live at the isle of wight 1970",
+        "slots": "O O O O O O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what time is the count playing",
+        "slots": "O O O B-movie_name I-movie_name O",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "add frank beard to my latin pop classics playlist",
+        "slots": "O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "i d like to eat at a taverna that serves chili con carne for a party of 10",
+        "slots": "O O O O O O O B-restaurant_type O O B-served_dish I-served_dish I-served_dish O O O O B-party_size_number",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "please put book of love on my ntc high intensity training tracks playlist",
+        "slots": "O O B-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play isaac yamma slut",
+        "slots": "O B-artist I-artist B-album",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "what movie theatre is the closest that is playing cheat you fair: the story of maxwell street right now",
+        "slots": "O B-object_location_type I-object_location_type O O B-spatial_relation O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O B-timeRange",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "can you make reservations at a tea house that serves fettucine",
+        "slots": "O O O O O O B-restaurant_type I-restaurant_type O O B-served_dish",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "rate current saga one point out of 6",
+        "slots": "O B-object_select B-object_part_of_series_type B-rating_value O O O B-best_rating",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "book a stuffed ham serving pizzeria in independence corner",
+        "slots": "O O B-served_dish I-served_dish O B-restaurant_type O B-city I-city",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "book a spot at a sushis diner in minnesota",
+        "slots": "O O O O O B-served_dish B-restaurant_type O B-state",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "book me a reservation at rustic inn",
+        "slots": "O O O O O B-restaurant_name I-restaurant_name",
+        "intent": "BookRestaurant"
+    },
+    {
+        "utterance": "please find me the projekt: the new face of goth",
+        "slots": "O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "play twenties chant from lagaylia frazier on itunes",
+        "slots": "O B-year B-music_item O B-artist I-artist O B-service",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "how is the weather going to be in pearblossom",
+        "slots": "O O O O O O O O B-city",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "will there be fog tonight at beamer memorial conservation area",
+        "slots": "O O O B-condition_description B-timeRange O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "can i see movie schedules for movies this evening in the neighbourhood",
+        "slots": "O O O B-object_type I-object_type O B-movie_type O B-timeRange B-spatial_relation I-spatial_relation I-spatial_relation",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "add manuelita to my indiespensables playlist",
+        "slots": "O B-entity_name O B-playlist_owner B-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what films are being shown at the national amusements",
+        "slots": "O B-movie_type O O O O O B-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "is it going to be warm on march the 12th in pendleton  delaware",
+        "slots": "O O O O O B-condition_temperature O B-timeRange I-timeRange I-timeRange O B-city B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "info on show natural language and linguistic theory",
+        "slots": "O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what is the oct  10 forecast for cuyabeno wildlife reserve",
+        "slots": "O O O B-timeRange I-timeRange O O B-geographic_poi I-geographic_poi I-geographic_poi",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "is it chilly on oct  19th in il",
+        "slots": "O O B-condition_temperature O B-timeRange I-timeRange O B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "add this roy orbison song onto women of comedy",
+        "slots": "O O B-artist I-artist B-music_item O B-playlist I-playlist I-playlist",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "what s the weather going to be like at 10:21:20 close by id",
+        "slots": "O O O O O O O O O B-timeRange B-spatial_relation I-spatial_relation B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "not yet: a memoir of living and almost dying was one out of 6 stars",
+        "slots": "B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O O B-best_rating B-rating_unit",
+        "intent": "RateBook"
+    },
+    {
+        "utterance": "add cream to the funk playlist",
+        "slots": "O B-entity_name O O B-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "i m looking for the saga why men leave home",
+        "slots": "O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "add track 70s smash hits to my",
+        "slots": "O B-music_item B-playlist I-playlist I-playlist O B-playlist_owner",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "play before i grew up to love you by wafah dufour",
+        "slots": "O B-track I-track I-track I-track I-track I-track I-track O B-artist I-artist",
+        "intent": "PlayMusic"
+    },
+    {
+        "utterance": "please look up the around the world in eighty days movie",
+        "slots": "O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what is the forecast for wyoming at stanardsville during the storm",
+        "slots": "O O O O O B-state O B-city O O B-condition_description",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "what movies are playing at regal entertainment group",
+        "slots": "O B-movie_type O O O B-location_name I-location_name I-location_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "add the song to the martin garrix show  playlist",
+        "slots": "O O B-music_item O B-playlist I-playlist I-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "is it chillier in mint hill fm",
+        "slots": "O O B-condition_temperature O B-city I-city B-state",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "what is the forecast for 6 am in aruba",
+        "slots": "O O O O O B-timeRange I-timeRange O B-country",
+        "intent": "GetWeather"
+    },
+    {
+        "utterance": "add my very best to my road trip playlist",
+        "slots": "O B-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O",
+        "intent": "AddToPlaylist"
+    },
+    {
+        "utterance": "looking for liberalism and the limits of justice",
+        "slots": "O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name",
+        "intent": "SearchCreativeWork"
+    },
+    {
+        "utterance": "what s the closest movie house showing night in may",
+        "slots": "O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name",
+        "intent": "SearchScreeningEvent"
+    },
+    {
+        "utterance": "can you tell me the weather forecast for six am in grenada",
+        "slots": "O O O O O O O O B-timeRange I-timeRange O B-country",
+        "intent": "GetWeather"
+    }
+]
