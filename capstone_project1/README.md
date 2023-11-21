@@ -15,7 +15,7 @@ The dataset (train.json,valid.json) contains examples of user utterances along w
 Reference:https://www.kaggle.com/competitions/hackathon-online-nlu-intent-classification/overview
 
 ## Solution
-- Intent Classification using CNN (Convolutional Neural Network)
+### Intent Classification using CNN (Convolutional Neural Network)
 The CNN model architecture for intent classification involves processing text data to determine the intent behind a user query or sentence.
 
 <img src="pic/cnn.png" />
@@ -31,7 +31,7 @@ Reference:https://machine-learning-company.nl/en/technical/convolutional-neural-
 
 5.Softmax Activation: The output layer uses a softmax activation function to provide probability scores for each intent category, allowing the model to predict the most likely intent for a given input.
 
-- Slot Filling using BiLSTM (Bidirectional Long Short-Term Memory)
+### Slot Filling using BiLSTM (Bidirectional Long Short-Term Memory)
 The BiLSTM model architecture is used for sequence labeling, specifically for slot filling tasks, where the goal is to identify and label specific parts of a sentence with corresponding tags.
 
 <img src="pic/bilstm.png" />
