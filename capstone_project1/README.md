@@ -7,7 +7,7 @@ The problem revolves around the challenge of understanding user queries or state
 - Extracting the intention behind user input: Given diverse user utterances, the system needs to accurately identify the user's intent or purpose, such as querying weather information, making reservations, playing music, etc.
 - Recognizing entities or slots: Understanding and categorizing specific entities within the user input, such as dates, locations, names, quantities, etc., using techniques like Named Entity Recognition (NER) with the BIO tagging scheme (Beginning, Inside, Outside).
 
-<img src="pic/example.jpg" />
+<img src="pic/example.png" />
 Reference:https://www.researchgate.net/figure/shows-an-example-utterance-from-the-Snips-dataset-Find-a-novel-called-industry-with-a_fig1_337405537
 
 ## Dataset
