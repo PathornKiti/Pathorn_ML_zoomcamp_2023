@@ -24,7 +24,7 @@ class Model:
         handle.close()
         return cnn_tokenizer,le
 
-    def load_cnn_preprocessor():
+    def load_bilstm_preprocessor():
         with open('../preprocessor/lstmx_tokenizer.pickle', 'rb') as handle:
             lstmx_tokenizer= pickle.load(handle)
         handle.close()

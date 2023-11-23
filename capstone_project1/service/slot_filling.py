@@ -10,7 +10,7 @@ class slot_filling:
     def fill_slot(self, text:str):
         label_list = list(self.tokenizer_y .word_index.keys())
         index_list = list(self.tokenizer_y .word_index.values())
-        input_seq = self.tokenizer_x.texts_to_sequences([sentence])
+        input_seq = self.tokenizer_x.texts_to_sequences([text])
         input_features = tf.keras.preprocessing.sequence.pad_sequences(input_seq, maxlen=50, padding='post')
 
         input_details = self.model.get_input_details()
