@@ -21,4 +21,4 @@ The [Machine Learning Zoomcamp](https://link-to-program) is a comprehensive cour
 
 ---
 
-Feel free to explore the folders and content to see my progress throughout the Machine Learning Zoomcamp. If you have any questions or suggestions, please [reach out to my LinkedIn](https://www.linkedin.com/in/pathornkiti/)
+Feel free to explore the folders and content to see my progress throughout the Machine Learning Zoomcamp. If you have any questions or suggestions, [Reach out to my LinkedIn](https://www.linkedin.com/in/pathornkiti/)
