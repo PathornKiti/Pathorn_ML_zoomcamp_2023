@@ -14,35 +14,20 @@ Reference:https://www.researchgate.net/figure/shows-an-example-utterance-from-th
 The dataset (train.json,valid.json) contains examples of user utterances along with associated intents and slot annotations, serving as the foundation for model training and evaluation.
 Reference:https://www.kaggle.com/competitions/hackathon-online-nlu-intent-classification/overview
 
-## Solution
-### Intent Classification using CNN (Convolutional Neural Network)
-The CNN model architecture for intent classification involves processing text data to determine the intent behind a user query or sentence.
+## Deployment
+Clone this repo and run the below docker command:
+`Start Application:`
+```docker
+docker-compose up -d --build
+```
+and navigate to http://localhost:8501/
+`Stop Application:`
+```docker
+docker-compose down
+```
+Dockerfile and environment configuration are included in ui and service folder. Models are deployed with FastAPI.
 
-<img src="pic/cnn.png" />
-Reference:https://machine-learning-company.nl/en/technical/convolutional-neural-network-text-classification-with-risk-assessment-eng/
-
-1.Word Embedding: Initially, the text data is converted into numerical representations using word embedding. This step maps words in the input text to dense vectors.
-
-2.Convolutional Layers: Convolutional layers perform feature extraction by applying filters to capture different patterns in the input sequences. In this case, 1D convolutional layers are used to identify relevant features within the text data.
-
-3.Pooling Layer: The GlobalMaxPooling1D layer extracts the most important features from the convolutional layers, condensing the information into a fixed-size vector.
-
-4.Dense Layers with Dropout and Regularization: These fully connected layers interpret the condensed features obtained from earlier layers for final classification into different intent categories. Dropout layers prevent overfitting, while regularization helps control the complexity of the model.
-
-5.Softmax Activation: The output layer uses a softmax activation function to provide probability scores for each intent category, allowing the model to predict the most likely intent for a given input.
-
-### Slot Filling using BiLSTM (Bidirectional Long Short-Term Memory)
-The BiLSTM model architecture is used for sequence labeling, specifically for slot filling tasks, where the goal is to identify and label specific parts of a sentence with corresponding tags.
-
-<img src="pic/bilstm.png" />
-Reference:https://www.researchgate.net/figure/Seq2seq-Bi-LSTM-Network-for-Slot-Filling-and-Intent-Keyword-Extraction_fig1_332630566
-
-1.Word Embedding: Similar to intent classification, the input text undergoes an embedding process to convert words into dense vector representations.
-
-2.Bidirectional LSTM: This layer uses a Bidirectional Long Short-Term Memory network, which processes the input sequence in both forward and backward directions. This bidirectional nature allows the model to capture contextual information from both past and future elements in the sequence.
-
-3.Dropout Layer: Dropout is applied to prevent overfitting by randomly dropping a fraction of input units during training.
-
-4.TimeDistributed Dense Layer: This layer applies a dense (fully connected) neural network to each temporal slice of the input sequence independently, producing output predictions for each time step.
-
-5.Softmax Activation: The TimeDistributed Dense layer with softmax activation assigns probability scores for different slot labels or tags to each word/token in the input sequence.
+## Limitation and Issues
+- The trained intents are restricted to: GetWeather, PlayMusic, RateBook, BookRestaurant, SearchCreativework, SearchScreeningEvent, and AddtoPlaylist.
+- This model only supports English.
+- Alternatively, you can utilize pre-trained models such as BERT, ATIS, or SNIPS for intent classification and slot filling.
