@@ -1,10 +1,10 @@
 # Machine Learning Zoomcamp - Work Delivery Repository
 
-This repository contains my work, assignments, projects, and notes for the Machine Learning Zoomcamp program. The program is organized by [DataTalks.Club](https://DataTalks.Club) and covers various topics in machine learning.
+This repository contains my work, assignments, projects, and notes for the Machine Learning Zoomcamp program. The program is organized by Data Talks Club and covers various topics in machine learning.
 
 ## About the Program
 
-The [Machine Learning Zoomcamp](https://link-to-program) is a comprehensive course that covers a wide range of machine learning concepts, including regression, classification, evaluation metrics, deployment, ensemble learning, neural networks, and more.
+The [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) is a comprehensive course that covers a wide range of machine learning concepts, including regression, classification, evaluation metrics, deployment, ensemble learning, neural networks, and more.
 
 
 ### Projects
