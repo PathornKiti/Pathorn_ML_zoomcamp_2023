@@ -59,6 +59,7 @@ and navigate to http://localhost:8501/
 docker-compose down
 ```
 Dockerfile and environment configuration are included in ui and service folder. Models are deployed with FastAPI.
+<img src="pic/st_sample.png" />
 
 ## Limitation and Issues
 - The trained intents are restricted to: GetWeather, PlayMusic, RateBook, BookRestaurant, SearchCreativework, SearchScreeningEvent, and AddtoPlaylist.
