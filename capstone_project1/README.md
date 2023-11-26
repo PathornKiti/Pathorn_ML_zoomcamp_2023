@@ -59,6 +59,7 @@ and navigate to http://localhost:8501/
 docker-compose down
 ```
 Dockerfile and environment configuration are included in ui and service folder. Models are deployed with FastAPI.
+Streamlit deployment sample
 <img src="pic/st_sample.png" />
 
 ## Limitation and Issues
