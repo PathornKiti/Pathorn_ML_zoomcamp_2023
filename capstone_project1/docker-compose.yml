@@ -1,0 +1,16 @@
+version: '1'
+
+services:
+  frontendui:
+    build: ui
+    ports:
+      - 8501:8501
+    volumes:
+      - './ui:/app:delegated'
+    depends_on:
+      - service
+    
+  service:
+    build: service
+    ports:
+      - 8000:8000  
