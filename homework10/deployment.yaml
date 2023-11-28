@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: credit-card
-        image: zoomcamp-model:v001
+        image: zoomcamp-model:hw10
         resources:
           requests:
             memory: "64Mi"
