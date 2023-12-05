@@ -66,3 +66,18 @@ Streamlit deployment sample
 - The trained intents are restricted to: GetWeather, PlayMusic, RateBook, BookRestaurant, SearchCreativework, SearchScreeningEvent, and AddtoPlaylist.
 - This model only supports English.
 - Alternatively, you can utilize pre-trained models such as BERT, ATIS, or SNIPS for intent classification and slot filling.
+
+## Cloud Deployment
+Before proceeding, ensure you have installed the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
+**Tag Docker Images:** Tag each Docker image with the following command:
+```docker
+docker tag SOURCE-IMAGE LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
+```
+**Push to Artifact Registry:** After tagging the image, push it to Google Cloud Artifact Registry using the following command:
+```docker
+docker push LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
+```
+**Deploy to Cloud Run:**To deploy your tagged Docker image to Cloud Run, use the `gcloud run deploy` command:
+```bash
+gcloud run deploy --image=us-docker.pkg.dev/project/image
+```
