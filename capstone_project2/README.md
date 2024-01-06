@@ -1,10 +1,10 @@
 ## Dataset
 The dataset consists of MRI images categorized into four classes:
 
-1.Non-demented: Individuals without signs of dementia.
-2.Very mild demented: Individuals with initial signs of cognitive decline.
-3.Mild demented: Individuals with noticeable cognitive impairment.
-4.Moderate demented: Individuals with substantial cognitive decline requiring assistance.
+- 1.Non-demented: Individuals without signs of dementia.
+- 2.Very mild demented: Individuals with initial signs of cognitive decline.
+- 3.Mild demented: Individuals with noticeable cognitive impairment.
+- 4.Moderate demented: Individuals with substantial cognitive decline requiring assistance.
 
 ### Dataset Details
 - **Number of Classes:** 4
