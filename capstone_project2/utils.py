@@ -37,8 +37,8 @@ def get_data(data_path):
 
 def create_generator(batch_size,img_size,train_df,valid_df,test_df):
 
-    train_datagen= ImageDataGenerator()
-    test_datagen= ImageDataGenerator()
+    train_datagen= ImageDataGenerator(preprocessing_function=tf.keras.applications.inception_v3.preprocess_input)
+    test_datagen= ImageDataGenerator(preprocessing_function=tf.keras.applications.inception_v3.preprocess_input)
     # Keep mode rgb even the data are in grayscale to corresponse the pretrained model input channel
     train_gen = train_datagen.flow_from_dataframe(train_df, x_col= 'file_path', y_col= 'label', target_size= img_size, class_mode= 'categorical',
                                     color_mode= 'rgb', shuffle= True, batch_size= batch_size)
