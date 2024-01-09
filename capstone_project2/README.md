@@ -14,17 +14,30 @@ API command to access the data  `kaggle datasets download -d tourist55/alzheimer
 ## Problem Description
 This project aims to develop a robust classification system for Alzheimer's disease using brain MRI images. Alzheimer's disease is a progressive neurodegenerative disorder that affects millions worldwide, primarily causing cognitive decline. Early detection and accurate classification of different stages of Alzheimer's disease are crucial for effective intervention and patient care.
 
+## EDA/Model Building
+These steps are included in[capstone2-alzheimer.ipynb](capstone2-alzheimer.ipynb)
+
+## Solution
+InceptionV3 is a convolutional neural network (CNN) architecture developed by Google. It is pre-trained on the ImageNet dataset and is known for its effectiveness in image recognition tasks. I leverage the InceptionV3 model to preprocess and predict Alzheimer's disease using MRI images.
+
+## Deployment
+Clone this repo and run the below docker command:
+`Start Application:`
+```docker
+docker-compose up -d --build
+```
+and navigate to http://localhost:8501/
+`Stop Application:`
+```docker
+docker-compose down
+```
+Dockerfile and environment configuration are included in backend and frontend folder. Models are deployed with FastAPI.
+Streamlit deployment sample
+<img src="pic/Screenshot 2567-01-09 at 23.25.57.png" />
+
 ## Model Limitations
 It's crucial to acknowledge that the developed model, while showing promise, has limitations:
 
-- Reliability Concerns: The model's predictions may not always be entirely accurate or reliable. It's essential to approach its outputs with caution and not solely rely on them for diagnostic decisions.
+- **Supplement, Not Replacement**: However, it is crucial to understand that these models are supplementary and cannot replace the expertise and clinical judgment of trained medical professionals.
 
-- Potential Misclassifications: Due to the complexity of Alzheimer's disease and the variability in MRI images, the model might misclassify certain cases, leading to false positives or false negatives.
-Imbalanced image data presents challenges in model training:
-
-- Class Distribution: The dataset might have significantly more samples from one class (e.g., non-demented) compared to others, impacting the model's ability to learn equally from each class.
-
-- Biased Model Performance: The model might exhibit bias towards the majority class, affecting its ability to correctly classify minority classes (e.g., moderate demented).
-
-## EDA/Model Building
-These steps are included in[capstone2-alzheimer.ipynb](capstone2-alzheimer.ipynb)
+- **Human Expertise Required**: A doctor's diagnosis involves comprehensive analysis, considering various factors beyond image data, including patient history, symptoms, and other medical tests. Human expertise is crucial in interpreting results and making informed decisions regarding patient care.
