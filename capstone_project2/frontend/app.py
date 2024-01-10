@@ -4,7 +4,10 @@ from PIL import Image
 from io import BytesIO
 
 def get_prediction(image_url):
-    api_url = "http://backend:8000/predict"
+    #local
+    #api_url = "http://backend:8000/predict"
+    #Cloud
+    api_url = "https://backend-np5jrb4y6q-uc.a.run.app/predict"
     payload = {"img_url": image_url}
     response = requests.post(api_url, json=payload)
     if response.status_code == 200:

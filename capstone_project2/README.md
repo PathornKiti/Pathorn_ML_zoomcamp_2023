@@ -35,6 +35,32 @@ Dockerfile and environment configuration are included in backend and frontend fo
 Streamlit deployment sample
 <img src="pic/Screenshot 2567-01-09 at 23.25.57.png" />
 
+## Cloud Deployment
+1. Create Container Image (macOS)**
+
+   Create a container image using the following command:
+
+   ```bash
+   docker buildx build --platform linux/amd64 {image-name} .
+2. Tag the local image with the repository name.
+
+   ```bash
+   docker tag SOURCE-IMAGE LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
+
+3. Push images to Artifact Registry
+    Don't forget to 
+
+   ```bash
+    gcloud auth login
+
+   ```bash
+    docker push LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
+
+4. Deploy images in Artifact Registry in Cloud Run
+    Note that set the same port as Dockerfile
+
+<img src="pic/cloud_deploy.JPG" />
+
 ## Model Limitations
 It's crucial to acknowledge that the developed model, while showing promise, has limitations:
 
