@@ -52,8 +52,7 @@ Streamlit deployment sample
 
    ```bash
     gcloud auth login
-
-   ```bash
+    
     docker push LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
 
 4. Deploy images in Artifact Registry in Cloud Run
