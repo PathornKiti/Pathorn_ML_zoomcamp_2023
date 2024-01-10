@@ -5,4 +5,4 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 RUN pipenv install --system --deploy && echo "Pipenv installation successful"
 COPY . .
 EXPOSE 8000
-CMD ["python", "main.py"]
+CMD uvicorn main:app --port 8000 --host 0.0.0.0
